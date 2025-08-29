@@ -1,0 +1,26 @@
+# Virtual Env
+.venv/
+
+# Python Caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local Config
+.env
+*.log
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Database
+*.db
+*.sqlite3
+
+# Queries
+*.sql
+
+# Data
+data/
