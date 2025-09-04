@@ -1,11 +1,11 @@
-#%%
+
+
+import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
 
+st.markdown('Data Salary Model')
 
-#%%
 raw_data = pd.read_excel('../../data/raw_data.xlsx')
 
-#%%
-sns.boxplot(raw_data['CONTRACT_TYPE'])
+select_box_pos = st.selectbox('Education', options=raw_data['EDUCATION'].unique())
+
