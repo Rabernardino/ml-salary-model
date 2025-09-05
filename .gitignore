@@ -24,3 +24,7 @@ Thumbs.db
 
 # Data
 data/
+
+# MLflow artifacts
+mlruns/
+mlflow.db
